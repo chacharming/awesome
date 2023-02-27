@@ -1,0 +1,169 @@
+.d-none{ display: none;}
+.h0{ height: 0 !important; overflow: hidden !important; padding: 0 !important; margin: 0 !important;}
+pre{
+    font-family: IBM Plex Sans KR;
+    font-weight: 300;
+    letter-spacing: -0.083em;
+    color: #fff;
+    border: none;
+    background-color: #000;margin-top: 60px;
+    font-size: 18px;
+    line-height: 2;
+}
+
+/* 메인 */
+#intro .container{ margin: 0;}
+#intro{
+    position: relative;
+    background-color: #000;
+    background-image: url(/awesome/chacha/img/title.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    margin-top: 120px;
+}
+#intro h2{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    font-size: 2em;
+    line-height: 2;
+    left: 50%; transform: translateX(-50%);
+}
+/* 인스타 이벤트 */
+.instagram{
+    font-size: 5rem;
+    flex-direction: column;
+    padding-top: 135px;
+}
+.instagram h2{ padding-bottom: 40px;}
+.insta{
+    display: block;
+    font-size: 2rem;
+}
+.instagram hr{ margin-bottom: 50px;}
+.inforList li{
+    list-style: none;
+}
+
+/* 출연진 */
+#lineUp{ padding-top: 50px;}
+#guest0{
+    position: relative;
+    background-image: url(/awesome/chacha/img/1080_mainBanner_03.jpg);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+#guest1{
+    position: relative;
+    background-image: url(/awesome/chacha/img/zico.png);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+#guest a{
+    text-decoration: underline;
+    font-size: 25px;
+}
+#guest2{
+    position: relative;
+    background-image: url(/awesome/chacha/img/kai.png);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+#guest3{
+    position: relative;
+    background-image: url(/awesome/chacha/img/giri.png);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+#guest4{
+    position: relative;
+    background-image: url(/awesome/chacha/img/minoi.png);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+#guest5{
+    position: relative;
+    background-image: url(/awesome/chacha/img/wonjae.png);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+}
+
+/* 공연정보 */
+#information{ padding-bottom: 0;}
+.infor{
+    position: relative;
+    background-image: url(/awesome/chacha/img/1080_mainBanner_01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    height: 750px;
+    left: 0; right: 0;
+}
+.infor .notice{
+    padding: 200px 250px 0;
+}
+.swiper .swiper-pagination{
+    top: 200px !important;
+    padding-top: 1rem;
+}
+.swiper-pagination-clickable .swiper-pagination-bullet{
+    width: auto;
+    font-size: 3rem;
+    background: transparent;
+    margin: 0 50px !important;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+    font-family: none;
+    font-size: 2.5rem;
+    line-height: 1;
+    color: #eee;
+}
+.swiper-pagination-bullet span{
+    color: #eee; opacity: 1;
+}
+
+/* 티켓예매 */
+#ticket{ padding-bottom: 0;}
+.interpark{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+/* support */
+#support p{ margin-top: 0;}
+.support{
+    position: relative;
+    background-image: url(/awesome/chacha/img/1920_mainBanner_02.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    left: 0; right: 0;
+    width: 100%; height: 500px;
+    background-color: #000;
+}
+
+/* 오시는길 */
+#direction h1{ 
+    font-family: "Raleway", "IBM Plex Sans KR";
+    font-weight: 900;
+    font-size: 50px;
+}
+
+.testimonials .testimonials-carousel .owl-controls .owl-prev, .testimonials .testimonials-carousel .owl-controls .owl-next{ background-color: transparent !important; font-size: 50px !important;}
